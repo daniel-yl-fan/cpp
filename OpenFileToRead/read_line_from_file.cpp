@@ -4,6 +4,7 @@ using std::endl;
 #include <fstream>
 using std::ifstream;
 #include "read_line_from_file.h"
+
 string& read_line_from_file( const char* fileName){
     static ifstream file;
     if( file.is_open() == false){
